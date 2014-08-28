@@ -1,6 +1,6 @@
 Repo for reasearch in the Hackign the OWASP top 10 project
 
-The current (2014) OWASP top 10 is:
+The current (2013) OWASP top 10 is:
 1. Injection
 2. Broken Authentication/Session management
 3. XSS
