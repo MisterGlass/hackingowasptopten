@@ -2,7 +2,7 @@ Unvalidated redirects
 
 Official Definition: Web applications frequently redirect and forward users to other pages and websites, and use untrusted data to determine the destination pages. Without proper validation, attackers can redirect victims to phishing or malware sites, or use forwards to access unauthorized pages.
 
-Simple Definition: Users trusted you, went to your website. You forwarded your users to a website without checking it right. That website can do bad thigns to your users.
+Simple Definition: You let me redirect users from your site anywhere I want, so now I can send people links to your website instead of evil.com .
 
 Hacker definition: Find a trusted site (EG facebook) with a page that will redirect to a page of your choice. Use it to redirect unsuspecting users to bad pages. Profit.
 
