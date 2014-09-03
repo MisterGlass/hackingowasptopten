@@ -1,0 +1,33 @@
+Rough outline:
+Intro
+I don't really need to secure it, do i? (4, 7 ,6)
+No one will notice..... (5, 9)
+Oops I should fix that (1,2)
+Whats the big deal if they can.... (10, 8, 3)
+
+
+Detailed outline:
+Intro
+    WHOAMI
+    Synopsis
+    Warning: quick, out of order
+    DONT DO THIS
+    PROMISE TO NOT DO THIS
+    
+I don't really need to secure it, do i?:
+    4: direct object reference missing access control
+    7: function missing access control
+    6: Data exposure
+
+No one will notice.....:
+    5: Misconfiguration
+    9: Vulnerable components
+    
+Oops I should fix that:
+    1: injection
+    2: Broken auth/session
+    
+Whats the big deal if they can....:
+    10: Unvalidated redirects
+    8: CSRF
+    3: XSS
