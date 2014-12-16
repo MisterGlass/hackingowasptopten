@@ -6,7 +6,7 @@ Simple Definition: You let me redirect users from your site anywhere I want, so 
 
 Hacker definition: Find a trusted site (EG facebook) with a page that will redirect to a page of your choice. Use it to redirect unsuspecting users to bad pages. Profit.
 
-Incident: ?
+Incident: http://thehackernews.com/2013/11/facebook-open-url-redirection-vulnerability_16.html, http://thehackernews.com/2013/11/facebook-open-url-redirection-vulnerability_16.html
 
 Demo: OAuth redirect to a redirect page to malware
 
