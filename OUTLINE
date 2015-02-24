@@ -1,34 +1,30 @@
 Rough outline:
 Intro
-I don't really need to secure that, do i? (4, 7 ,6)
-No one will notice..... (5, 9)
-Oops I should fix that (1,2)
-Whats the big deal if they can.... (10, 8, 3)
-
+Oh, did I miss that - Quick overview, no meat here so tiny/no demos
+No one will notice - More details, bit more time on each. Show off some fun & powerful google dorks
+Oops I should fix that - Start getting into some real demos, explain the injection is not just SQL injection, bulletpoint coverage of broken auth
+Whats the big deal if they can - Short explanations, big demos of how to leverage these vulnerabilities for real effect
 
 Detailed outline:
 Intro
     WHOAMI
-    Synopsis
-    Warning: quick, out of order
-    DONT DO THIS
-    PROMISE TO NOT DO THIS
+    Synopsis (what we'll cover) & Overview (how its organised, how much info to expect)
+    DONT DO THIS (PROMISE TO NOT DO THIS WITHOUT PROPER WRITTEN PERMISSION)
     
-I don't really need to secure that, do i?:
-  Essentially, stuff just left open. No demos for some of these, run through quickly
-    4: object reference w/o access control
-    7: function w/o access control
+Section A) Oh, did I miss that
+    4: Object reference w/o access control
+    7: Function w/o access control
     6: Data exposure
 
-No one will notice.....:
+Section B) No one will notice
     5: Misconfiguration
     9: Vulnerable components
     
-Oops I should fix that:
-    1: injection
+Section C) Oops I should fix that
+    1: Injection
     2: Broken auth/session
     
-Whats the big deal if they can....:
+Section D) Whats the big deal if they can
     10: Unvalidated redirects
     8: CSRF
     3: XSS

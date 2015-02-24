@@ -8,8 +8,8 @@ Hacker definition: Find an admin endpoint/url that isn't secured, just hidden (E
 
 Incident: ?
 
-Demo: Exploit a "hidden" link that doesnt authenticate. Perhaps an undocumented CRUD method an an API
+Demo: None.
 
-Fix: ?
+Fix: Real user access controls
 
 Notes: Very similar to 4. Distinction is simple: 4 is about detailed access control (access entity 4 but not 5), 7 is about functions that arent secured (dont let them hit /delete/*). Longer explanation: 4 is talking about users with permission for some subset of an object (EG, edit users 1-4 but not 5 or even user 5 but no one else) being allowed to change an Identifier and gain access to those other instance of the same resource. Here, they typically are unauthenticated or dont have permission for this action (EG, user can post comments but shouldnt be able to edit any users).
